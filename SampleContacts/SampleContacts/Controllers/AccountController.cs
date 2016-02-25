@@ -16,7 +16,9 @@ namespace SampleContacts.Controllers
             return View();
         }
 
-
+        //adding a comment
+        //adding a comment2
+        //adding a comment3
         [HttpPost]
         public ActionResult SignUp(UserSignUpView USV)
         {
