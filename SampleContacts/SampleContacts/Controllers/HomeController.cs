@@ -17,6 +17,7 @@ namespace SampleContacts.Controllers
         [Authorize]
         public ActionResult Welcome()
         {
+	//feature
             return View();
         }
 
