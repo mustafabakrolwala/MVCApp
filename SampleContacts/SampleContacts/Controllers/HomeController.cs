@@ -17,12 +17,15 @@ namespace SampleContacts.Controllers
         [Authorize]
         public ActionResult Welcome()
         {
+	//feature
             return View();
         }
 
         //this is comment added bt sureklhas
         public ActionResult UnAuthorized()
         {
+//task
+//task again
             return View();
         }
     }
